@@ -6,6 +6,7 @@ namespace Domain.Entities
     {
         public string Name { get; set; }
 
+        public virtual ICollection<Model> Models { get; set; } 
         public Brand()
         {
         }
